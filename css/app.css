@@ -53,7 +53,7 @@
 
 .menu__link:hover,
 .menu__link:focus {
-	outline: none;
+	outline:none;
 }
 
 .menu--prospero .menu__link {
