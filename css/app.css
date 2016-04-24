@@ -14,12 +14,6 @@ a {
   display: block;
 }
 
-#star {
-  text-align: center;
-  font-size: 100px;
-  line-height: 500px;
-  color: #ddd;
-}
 /*end of navigation css*/
 .portfolio{
     height:100%;
