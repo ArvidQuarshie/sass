@@ -1,3 +1,17 @@
+body{
+    font-family: 'Poiret+One';
+
+
+}
+.members{
+    height:100%;
+    width:100%;
+     background-image: url(../images/landing3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color:white;
+
+}
 .container{
     height:100%;
     width:100%;
