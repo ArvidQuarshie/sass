@@ -3,6 +3,24 @@ h1,h2,h3,h4,h5{
 
 
 }
+/*navigation css*/
+a {
+  background: #ddd;
+  color: #444;
+  font-family: sans-serif;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+}
+
+#star {
+  text-align: center;
+  font-size: 100px;
+  line-height: 500px;
+  color: #ddd;
+}
+/*end of navigation css*/
 .portfolio{
     height:100%;
     width:100%;
