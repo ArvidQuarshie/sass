@@ -3,6 +3,14 @@ h1,h2,h3,h4,h5{
 
 
 }
+.members{
+    height:80%;
+    width:100%;
+    background-image: url(../images/landing4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
 .about{
     height:100%;
     width:100%;
