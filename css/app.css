@@ -1,7 +1,12 @@
 .myheading{
-    width:100%
+    width:100%;
     height:100%;
     background-image: url(../images/landing.jpg) ;
-   background-repeat: no-repeat;
+    background-repeat: no-repeat;
 
+}
+
+.containermain{
+    height:100%;
+    width:100%;
 }
