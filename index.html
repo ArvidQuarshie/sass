@@ -8,6 +8,10 @@
 		<link rel="stylesheet" type="text/css" href="css/navigation/nav-css/component.css" />
     <link rel="stylesheet" type="text/css" href="css/caption_hover/component.css" />
     <link rel="stylesheet" type="text/css" href="css/caption_hover/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/shape-hover/css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/shape-hover/css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/shape-hover/css/normalize.css"/>
+		<script src="js/shape-hover/snap.svg-min.js"></script>
      <link rel="stylesheet" type="text/css" href="css/app.css" />
 
 
@@ -144,6 +148,34 @@
 				});
 			});
 		})(window);
+		</script>
+    <script>
+			(function() {
+
+				function init() {
+					var speed = 250,
+						easing = mina.easeinout;
+
+					[].slice.call ( document.querySelectorAll( '#grid > a' ) ).forEach( function( el ) {
+						var s = Snap( el.querySelector( 'svg' ) ), path = s.select( 'path' ),
+							pathConfig = {
+								from : path.attr( 'd' ),
+								to : el.getAttribute( 'data-path-hover' )
+							};
+
+						el.addEventListener( 'mouseenter', function() {
+							path.animate( { 'path' : pathConfig.to }, speed, easing );
+						} );
+
+						el.addEventListener( 'mouseleave', function() {
+							path.animate( { 'path' : pathConfig.from }, speed, easing );
+						} );
+					} );
+				}
+
+				init();
+
+			})();
 		</script>
     <script src="js/caption-js/toucheffects.js"></script>
     <script src="js/caption-js/modernizr.custom.js"></script>
