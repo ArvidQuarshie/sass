@@ -195,7 +195,7 @@
 	color: #52be7f;
 }
 
-.demo-3 .grid2 a:hover figcaption h2 {
+.demo-3 .grid a:hover figcaption h2 {
 	-webkit-transform: translateY(5px);
 	transform: translateY(5px);
 }
