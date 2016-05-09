@@ -1,4 +1,9 @@
-html, body { height: 100%; width: 100%; margin: 0; }
+html, body { height: 100%; width: 100%; margin: 0;
+
+
+font-family: 'Indie+Flower'
+
+}
 
 .myheading{
     width:100%;
@@ -28,8 +33,9 @@ html, body { height: 100%; width: 100%; margin: 0; }
 .contactus{
     height:100%;
     width:100%;
-    background-color: red;
+    background-color: white;
     color:black;
+    text-align: center;
 }
 
 .mymembers{
@@ -37,3 +43,5 @@ html, body { height: 100%; width: 100%; margin: 0; }
     width:100%;
     background-color: white;
 }
+
+
